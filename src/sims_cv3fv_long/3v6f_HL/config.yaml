@@ -1,0 +1,42 @@
+bilayer_eq: false
+box:
+- 25.0
+- 25.0
+- 150.0
+box_eq: false
+boxscaling_xyz:
+- true
+- true
+- true
+cutoff_lj: 2.0
+cutoff_yu: 4.0
+eps_lj: 0.2
+fixed_lambda: 0
+frestart: restart.chk
+friction_coeff: 0.01
+gpu_id: 0
+ionic: 0.15
+k_eq: 0.02
+logfreq: 1000000
+pH: 7.0
+platform: CPU
+pressure:
+- 0
+- 0
+- 0
+pressure_coupling: false
+random_number_seed: null
+report_potential_energy: false
+restart: null
+runtime: 0
+slab_eq: false
+slab_outer: 40
+slab_width: 100
+steps: 10050000
+steps_eq: 1000
+sysname: 3v6f_Fv_HL
+temp: 298
+threads: 4
+topol: slab
+verbose: true
+wfreq: 10000

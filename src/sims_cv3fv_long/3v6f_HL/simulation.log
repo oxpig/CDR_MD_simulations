@@ -1,0 +1,173 @@
+[INFO] Simulating 3v6f with H chain H and L chain L, saving to /data/localhost/not-backed-up/spoendli/3v6f_HL
+[INFO] Copying imgt numbered pdb
+[INFO] File copied from primary source.
+[INFO] Renumbering and relaxing pdb
+Script output: Relaxation completed successfully
+
+Done, file are stored in  /data/localhost/not-backed-up/spoendli/3v6f_HL
+[INFO] Creating dssp file
+[INFO] Creating folded constraints
+[INFO] Updating folded constraints for CDR1
+[INFO] Creating CDR constraints
+[INFO] Creating constraints for contacts
+Output saved to /data/localhost/not-backed-up/spoendli/3v6f_HL/3v6f_Fv_HL_ij_energy_contact.csv
+[INFO] Preparing simulation
+pdb_folder: /data/localhost/not-backed-up/spoendli/3v6f_HL pdb_name: 3v6f_Fv_HL pdb_fullname: 3v6f_Fv_HL.pdb
+[INFO] Running simulation
+/vols/opig/users/spoendli/CDRsimulations/CALVADOS/residues_C3.csv
+Adding charges for both termini of 3v6f_Fv_HL.
+/homes/spoendli/miniconda3/envs/calvados3/lib/python3.10/site-packages/calvados/build.py:230: RuntimeWarning: divide by zero encountered in divide
+  ndeviation = n / nxyz
+Using domains [[[1, 25], [26, 26], [27, 27], [32, 32], [34, 50], [51, 51], [55, 55], [58, 58], [59, 96], [97, 97], [98, 98], [113, 125], [126, 151], [152, 152], [155, 155], [157, 157], [161, 161], [162, 162], [164, 180], [184, 219], [220, 220], [221, 221], [226, 226], [229, 229], [230, 242], [29, 29], [154, 154]]]
+Setting custom restraints for 3v6f_Fv_HL
+Custom restraints: [(26, 2, 26, 1), (2, 2, 27, 1), (2, 2, 98, 1), (2, 2, 112, 1), (26, 24, 26, 1), (24, 24, 29, 1), (26, 26, 28, 1), (27, 27, 29, 0), (27, 27, 98, 1), (28, 28, 29, 1), (28, 28, 31, 0), (28, 28, 32, 0), (29, 29, 30, 1), (29, 29, 32, 0), (29, 29, 72, 1), (29, 29, 77, 1), (30, 30, 31, 1), (30, 30, 74, 1), (31, 31, 33, 1), (32, 32, 98, 1), (33, 33, 35, 1), (33, 33, 99, 0), (33, 33, 100, 1), (51, 34, 51, 0), (98, 34, 98, 1), (97, 35, 97, 0), (35, 35, 99, 1), (35, 35, 110, 1), (52, 50, 52, 1), (50, 50, 99, 1), (51, 51, 55, 1), (51, 51, 58, 1), (51, 51, 70, 1), (51, 51, 72, 1), (52, 52, 54, 1), (52, 52, 55, 0), (52, 52, 57, 0), (53, 53, 54, 1), (54, 54, 56, 1), (56, 56, 58, 1), (57, 57, 59, 1), (58, 58, 60, 1), (97, 95, 97, 1), (98, 96, 98, 1), (97, 97, 99, 1), (97, 97, 110, 1), (97, 97, 113, 1), (98, 98, 111, 0), (98, 98, 112, 0), (99, 99, 110, 1), (100, 100, 108, 0), (100, 100, 111, 1), (101, 101, 102, 1), (101, 101, 103, 1), (101, 101, 109, 1), (102, 102, 104, 1), (103, 103, 105, 0), (103, 103, 106, 0), (103, 103, 108, 1), (104, 104, 105, 1), (105, 105, 107, 1), (106, 106, 108, 1), (107, 107, 224, 1), (109, 109, 111, 1), (109, 109, 165, 1), (109, 109, 222, 1), (111, 111, 113, 1), (111, 111, 177, 0), (112, 112, 114, 1), (126, 126, 227, 1), (228, 126, 228, 1), (127, 127, 152, 1), (127, 127, 221, 1), (227, 127, 227, 1), (154, 150, 154, 1), (153, 151, 153, 1), (152, 152, 226, 1), (153, 153, 199, 1), (153, 153, 200, 1), (154, 154, 156, 0), (154, 154, 163, 0), (154, 154, 199, 0), (155, 155, 162, 1), (155, 155, 199, 1), (156, 156, 158, 0), (156, 156, 159, 1), (156, 156, 161, 0), (157, 157, 158, 1), (157, 157, 159, 1), (157, 157, 160, 0), (158, 158, 159, 1), (159, 159, 161, 1), (160, 160, 162, 1), (161, 161, 163, 0), (161, 161, 181, 1), (162, 162, 164, 0), (162, 162, 181, 0), (162, 162, 182, 1), (162, 162, 198, 1), (163, 163, 165, 1), (163, 163, 222, 0), (182, 164, 182, 0), (221, 164, 221, 1), (220, 165, 220, 0), (165, 165, 222, 1), (183, 180, 183, 0), (181, 181, 182, 1), (181, 181, 183, 0), (182, 182, 202, 1), (183, 183, 185, 0), (183, 183, 195, 0), (220, 218, 220, 1), (221, 219, 221, 1), (220, 220, 222, 1), (220, 220, 230, 1), (221, 221, 229, 0), (222, 222, 224, 0), (223, 223, 226, 0), (223, 223, 227, 1), (224, 224, 225, 1), (225, 225, 227, 1), (228, 228, 230, 1), (229, 229, 231, 1)]
+Total number of components in the system: 1
+Total number of molecules in the system: 1
+Ashbaugh-Hatch potential between particles with lambda=1 and sigma=0.68 at 2.0 nm: -0.0051627815139227455 kJ/mol
+Debye-Hückel potential between unit charges at 4.0 nm: 0.0026929581620513438 kJ/mol
+Component 0, Molecule 0: 3v6f_Fv_HL
+Custom restraint between 2 and 26 with k=175 and k_custom_idx=1
+Custom restraint between 2 and 27 with k=175 and k_custom_idx=1
+Custom restraint between 2 and 98 with k=175 and k_custom_idx=1
+Custom restraint between 2 and 112 with k=175 and k_custom_idx=1
+Custom restraint between 24 and 26 with k=175 and k_custom_idx=1
+Custom restraint between 24 and 29 with k=175 and k_custom_idx=1
+Custom restraint between 26 and 28 with k=175 and k_custom_idx=1
+Custom restraint between 27 and 29 with k=350 and k_custom_idx=0
+Custom restraint between 27 and 98 with k=175 and k_custom_idx=1
+Custom restraint between 28 and 31 with k=350 and k_custom_idx=0
+Custom restraint between 28 and 32 with k=350 and k_custom_idx=0
+Custom restraint between 29 and 32 with k=350 and k_custom_idx=0
+Custom restraint between 29 and 72 with k=175 and k_custom_idx=1
+Custom restraint between 29 and 77 with k=175 and k_custom_idx=1
+Custom restraint between 30 and 74 with k=175 and k_custom_idx=1
+Custom restraint between 31 and 33 with k=175 and k_custom_idx=1
+Custom restraint between 32 and 98 with k=175 and k_custom_idx=1
+Custom restraint between 33 and 35 with k=175 and k_custom_idx=1
+Custom restraint between 33 and 99 with k=350 and k_custom_idx=0
+Custom restraint between 33 and 100 with k=175 and k_custom_idx=1
+Custom restraint between 34 and 51 with k=350 and k_custom_idx=0
+Custom restraint between 34 and 98 with k=175 and k_custom_idx=1
+Custom restraint between 35 and 97 with k=350 and k_custom_idx=0
+Custom restraint between 35 and 99 with k=175 and k_custom_idx=1
+Custom restraint between 35 and 110 with k=175 and k_custom_idx=1
+Custom restraint between 50 and 52 with k=175 and k_custom_idx=1
+Custom restraint between 50 and 99 with k=175 and k_custom_idx=1
+Custom restraint between 51 and 55 with k=175 and k_custom_idx=1
+Custom restraint between 51 and 58 with k=175 and k_custom_idx=1
+Custom restraint between 51 and 70 with k=175 and k_custom_idx=1
+Custom restraint between 51 and 72 with k=175 and k_custom_idx=1
+Custom restraint between 52 and 54 with k=175 and k_custom_idx=1
+Custom restraint between 52 and 55 with k=350 and k_custom_idx=0
+Custom restraint between 52 and 57 with k=350 and k_custom_idx=0
+Custom restraint between 54 and 56 with k=175 and k_custom_idx=1
+Custom restraint between 56 and 58 with k=175 and k_custom_idx=1
+Custom restraint between 57 and 59 with k=175 and k_custom_idx=1
+Custom restraint between 58 and 60 with k=175 and k_custom_idx=1
+Custom restraint between 95 and 97 with k=175 and k_custom_idx=1
+Custom restraint between 96 and 98 with k=175 and k_custom_idx=1
+Custom restraint between 97 and 99 with k=175 and k_custom_idx=1
+Custom restraint between 97 and 110 with k=175 and k_custom_idx=1
+Custom restraint between 97 and 113 with k=175 and k_custom_idx=1
+Custom restraint between 98 and 111 with k=350 and k_custom_idx=0
+Custom restraint between 98 and 112 with k=350 and k_custom_idx=0
+Custom restraint between 99 and 110 with k=175 and k_custom_idx=1
+Custom restraint between 100 and 108 with k=350 and k_custom_idx=0
+Custom restraint between 100 and 111 with k=175 and k_custom_idx=1
+Custom restraint between 101 and 103 with k=175 and k_custom_idx=1
+Custom restraint between 101 and 109 with k=175 and k_custom_idx=1
+Custom restraint between 102 and 104 with k=175 and k_custom_idx=1
+Custom restraint between 103 and 105 with k=350 and k_custom_idx=0
+Custom restraint between 103 and 106 with k=350 and k_custom_idx=0
+Custom restraint between 103 and 108 with k=175 and k_custom_idx=1
+Custom restraint between 105 and 107 with k=175 and k_custom_idx=1
+Custom restraint between 106 and 108 with k=175 and k_custom_idx=1
+Custom restraint between 107 and 224 with k=175 and k_custom_idx=1
+Custom restraint between 109 and 111 with k=175 and k_custom_idx=1
+Custom restraint between 109 and 165 with k=175 and k_custom_idx=1
+Custom restraint between 109 and 222 with k=175 and k_custom_idx=1
+Custom restraint between 111 and 113 with k=175 and k_custom_idx=1
+Custom restraint between 111 and 177 with k=350 and k_custom_idx=0
+Custom restraint between 112 and 114 with k=175 and k_custom_idx=1
+Custom restraint between 126 and 227 with k=175 and k_custom_idx=1
+Custom restraint between 127 and 152 with k=175 and k_custom_idx=1
+Custom restraint between 127 and 221 with k=175 and k_custom_idx=1
+Custom restraint between 127 and 227 with k=175 and k_custom_idx=1
+Custom restraint between 150 and 154 with k=175 and k_custom_idx=1
+Custom restraint between 151 and 153 with k=175 and k_custom_idx=1
+Custom restraint between 152 and 226 with k=175 and k_custom_idx=1
+Custom restraint between 153 and 199 with k=175 and k_custom_idx=1
+Custom restraint between 153 and 200 with k=175 and k_custom_idx=1
+Custom restraint between 154 and 156 with k=350 and k_custom_idx=0
+Custom restraint between 154 and 163 with k=350 and k_custom_idx=0
+Custom restraint between 154 and 199 with k=350 and k_custom_idx=0
+Custom restraint between 155 and 162 with k=175 and k_custom_idx=1
+Custom restraint between 155 and 199 with k=175 and k_custom_idx=1
+Custom restraint between 156 and 158 with k=350 and k_custom_idx=0
+Custom restraint between 156 and 159 with k=175 and k_custom_idx=1
+Custom restraint between 156 and 161 with k=350 and k_custom_idx=0
+Custom restraint between 157 and 159 with k=175 and k_custom_idx=1
+Custom restraint between 157 and 160 with k=350 and k_custom_idx=0
+Custom restraint between 159 and 161 with k=175 and k_custom_idx=1
+Custom restraint between 160 and 162 with k=175 and k_custom_idx=1
+Custom restraint between 161 and 163 with k=350 and k_custom_idx=0
+Custom restraint between 161 and 181 with k=175 and k_custom_idx=1
+Custom restraint between 162 and 164 with k=350 and k_custom_idx=0
+Custom restraint between 162 and 181 with k=350 and k_custom_idx=0
+Custom restraint between 162 and 182 with k=175 and k_custom_idx=1
+Custom restraint between 162 and 198 with k=175 and k_custom_idx=1
+Custom restraint between 163 and 165 with k=175 and k_custom_idx=1
+Custom restraint between 163 and 222 with k=350 and k_custom_idx=0
+Custom restraint between 164 and 182 with k=350 and k_custom_idx=0
+Custom restraint between 164 and 221 with k=175 and k_custom_idx=1
+Custom restraint between 165 and 220 with k=350 and k_custom_idx=0
+Custom restraint between 165 and 222 with k=175 and k_custom_idx=1
+Custom restraint between 180 and 183 with k=350 and k_custom_idx=0
+Custom restraint between 181 and 183 with k=350 and k_custom_idx=0
+Custom restraint between 182 and 202 with k=175 and k_custom_idx=1
+Custom restraint between 183 and 185 with k=350 and k_custom_idx=0
+Custom restraint between 183 and 195 with k=350 and k_custom_idx=0
+Custom restraint between 218 and 220 with k=175 and k_custom_idx=1
+Custom restraint between 219 and 221 with k=175 and k_custom_idx=1
+Custom restraint between 220 and 222 with k=175 and k_custom_idx=1
+Custom restraint between 220 and 230 with k=175 and k_custom_idx=1
+Custom restraint between 221 and 229 with k=350 and k_custom_idx=0
+Custom restraint between 222 and 224 with k=350 and k_custom_idx=0
+Custom restraint between 223 and 226 with k=350 and k_custom_idx=0
+Custom restraint between 225 and 227 with k=175 and k_custom_idx=1
+Custom restraint between 228 and 230 with k=175 and k_custom_idx=1
+Custom restraint between 229 and 231 with k=175 and k_custom_idx=1
+Number of restraints for comp 3v6f_Fv_HL: 1128
+242 particles in the system
+---------- FORCES ----------
+ah: 242 particles, 1368 exclusions
+yu: 242 particles, 1368 exclusions
+0.01 /ps 293.0 K
+Running on CPU
+Starting from new system configuration
+Writing trajectory to new file ./3v6f_Fv_HL.dcd
+Minimizing energy.
+STARTING SIMULATION
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [03:58<35:46, 238.50s/it] 20%|██        | 2/10 [07:59<31:58, 239.81s/it] 30%|███       | 3/10 [11:52<27:38, 236.86s/it] 40%|████      | 4/10 [15:45<23:32, 235.34s/it] 50%|█████     | 5/10 [19:44<19:42, 236.56s/it] 60%|██████    | 6/10 [23:43<15:49, 237.34s/it] 70%|███████   | 7/10 [27:43<11:55, 238.41s/it] 80%|████████  | 8/10 [31:45<07:59, 239.55s/it] 90%|█████████ | 9/10 [35:47<04:00, 240.32s/it]100%|██████████| 10/10 [39:40<00:00, 238.07s/it]100%|██████████| 10/10 [39:40<00:00, 238.08s/it]
+[INFO] Copying results to vols
+Copying from /data/localhost/not-backed-up/spoendli/3v6f_HL to /vols/opig/projects/cagiada-CDRsimulations/sims_190225_high/
+sending incremental file list
+3v6f_HL/
+3v6f_HL/3v6f_Fv_HL.dcd
+3v6f_HL/3v6f_Fv_HL.dssp
+3v6f_HL/3v6f_Fv_HL.log
+3v6f_HL/3v6f_Fv_HL.pdb
+3v6f_HL/3v6f_Fv_HL.xml
+3v6f_HL/3v6f_Fv_HL_20251902_17h08m02s.pdb
+3v6f_HL/3v6f_Fv_HL_4dssp.pdb
+3v6f_HL/3v6f_Fv_HL_ij_energy.csv
+3v6f_HL/3v6f_Fv_HL_ij_energy_contact.csv
+3v6f_HL/3v6f_HL.pdb
+3v6f_HL/3v6f_dict_Fv_HL.txt
+3v6f_HL/bonds_3v6f_Fv_HL.txt
+3v6f_HL/checkpoint.pdb
+3v6f_HL/components.yaml
+3v6f_HL/config.yaml
+3v6f_HL/restart.chk
+3v6f_HL/restr_3v6f_Fv_HL.txt
+3v6f_HL/run.py
