@@ -1,0 +1,9 @@
+defaults:
+  alpha: 0
+  charge_termini: both
+  charge_terminus: both
+  molecule_type: protein
+  nmol: 1
+  restraint: true
+system:
+  2q76_Fv_DC: {}
