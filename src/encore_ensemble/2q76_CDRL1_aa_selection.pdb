@@ -1,0 +1,175 @@
+TITLE     MDANALYSIS FRAME 0: Created by PDBWriter
+CRYST1   85.405   85.405   85.405 109.47 109.47 109.47 P 1           1
+ATOM      1  N   GLN X  27      67.890  38.900  61.960  1.00  0.00      SYST N  
+ATOM      2  H   GLN X  27      66.910  38.800  61.730  1.00  0.00      SYST H  
+ATOM      3  CA  GLN X  27      68.590  38.040  62.900  1.00  0.00      SYST C  
+ATOM      4  HA  GLN X  27      69.660  38.050  62.670  1.00  0.00      SYST H  
+ATOM      5  CB  GLN X  27      68.440  38.520  64.340  1.00  0.00      SYST C  
+ATOM      6  HB2 GLN X  27      67.440  38.320  64.710  1.00  0.00      SYST H  
+ATOM      7  HB3 GLN X  27      69.040  37.980  65.070  1.00  0.00      SYST H  
+ATOM      8  CG  GLN X  27      68.720  40.020  64.660  1.00  0.00      SYST C  
+ATOM      9  HG2 GLN X  27      68.010  40.560  64.030  1.00  0.00      SYST H  
+ATOM     10  HG3 GLN X  27      68.420  40.270  65.670  1.00  0.00      SYST H  
+ATOM     11  CD  GLN X  27      70.140  40.560  64.320  1.00  0.00      SYST C  
+ATOM     12  OE1 GLN X  27      71.010  39.880  63.990  1.00  0.00      SYST O  
+ATOM     13  NE2 GLN X  27      70.370  41.810  64.340  1.00  0.00      SYST N  
+ATOM     14 HE21 GLN X  27      69.640  42.440  64.650  1.00  0.00      SYST H  
+ATOM     15 HE22 GLN X  27      71.310  42.160  64.240  1.00  0.00      SYST H  
+ATOM     16  C   GLN X  27      68.190  36.570  62.670  1.00  0.00      SYST C  
+ATOM     17  O   GLN X  27      67.050  36.310  62.370  1.00  0.00      SYST O  
+ATOM     18  N   SER X  28      69.140  35.750  63.030  1.00  0.00      SYST N  
+ATOM     19  H   SER X  28      70.050  36.130  63.240  1.00  0.00      SYST H  
+ATOM     20  CA  SER X  28      69.060  34.290  63.010  1.00  0.00      SYST C  
+ATOM     21  HA  SER X  28      68.560  34.000  62.090  1.00  0.00      SYST H  
+ATOM     22  CB  SER X  28      70.460  33.670  63.130  1.00  0.00      SYST C  
+ATOM     23  HB2 SER X  28      71.020  34.160  62.340  1.00  0.00      SYST H  
+ATOM     24  HB3 SER X  28      70.900  33.970  64.080  1.00  0.00      SYST H  
+ATOM     25  OG  SER X  28      70.370  32.280  63.130  1.00  0.00      SYST O  
+ATOM     26  HG  SER X  28      70.660  32.020  62.250  1.00  0.00      SYST H  
+ATOM     27  C   SER X  28      68.150  33.740  64.150  1.00  0.00      SYST C  
+ATOM     28  O   SER X  28      68.210  34.100  65.320  1.00  0.00      SYST O  
+ATOM     29  N   ILE X  29      67.230  32.890  63.660  1.00  0.00      SYST N  
+ATOM     30  H   ILE X  29      67.280  32.830  62.650  1.00  0.00      SYST H  
+ATOM     31  CA  ILE X  29      65.970  32.390  64.320  1.00  0.00      SYST C  
+ATOM     32  HA  ILE X  29      66.090  32.560  65.390  1.00  0.00      SYST H  
+ATOM     33  CB  ILE X  29      64.690  33.040  63.770  1.00  0.00      SYST C  
+ATOM     34  HB  ILE X  29      63.820  32.490  64.140  1.00  0.00      SYST H  
+ATOM     35  CG2 ILE X  29      64.600  34.440  64.370  1.00  0.00      SYST C  
+ATOM     36 HG21 ILE X  29      65.420  35.060  64.000  1.00  0.00      SYST H  
+ATOM     37 HG22 ILE X  29      63.680  34.930  64.060  1.00  0.00      SYST H  
+ATOM     38 HG23 ILE X  29      64.720  34.390  65.460  1.00  0.00      SYST H  
+ATOM     39  CG1 ILE X  29      64.590  33.050  62.210  1.00  0.00      SYST C  
+ATOM     40 HG12 ILE X  29      65.310  33.750  61.780  1.00  0.00      SYST H  
+ATOM     41 HG13 ILE X  29      64.790  32.020  61.920  1.00  0.00      SYST H  
+ATOM     42  CD1 ILE X  29      63.190  33.310  61.600  1.00  0.00      SYST C  
+ATOM     43 HD11 ILE X  29      63.290  33.310  60.520  1.00  0.00      SYST H  
+ATOM     44 HD12 ILE X  29      62.530  32.530  61.960  1.00  0.00      SYST H  
+ATOM     45 HD13 ILE X  29      62.780  34.320  61.700  1.00  0.00      SYST H  
+ATOM     46  C   ILE X  29      65.830  30.860  64.140  1.00  0.00      SYST C  
+ATOM     47  O   ILE X  29      64.750  30.270  64.330  1.00  0.00      SYST O  
+ATOM     48  N   SER X  30      66.920  30.170  63.690  1.00  0.00      SYST N  
+ATOM     49  H   SER X  30      67.820  30.630  63.730  1.00  0.00      SYST H  
+ATOM     50  CA  SER X  30      66.930  28.780  63.310  1.00  0.00      SYST C  
+ATOM     51  HA  SER X  30      67.790  28.650  62.660  1.00  0.00      SYST H  
+ATOM     52  CB  SER X  30      67.010  27.790  64.500  1.00  0.00      SYST C  
+ATOM     53  HB2 SER X  30      67.910  27.950  65.100  1.00  0.00      SYST H  
+ATOM     54  HB3 SER X  30      66.090  27.820  65.080  1.00  0.00      SYST H  
+ATOM     55  OG  SER X  30      67.140  26.460  64.010  1.00  0.00      SYST O  
+ATOM     56  HG  SER X  30      68.030  26.230  63.740  1.00  0.00      SYST H  
+ATOM     57  C   SER X  30      65.920  28.470  62.210  1.00  0.00      SYST C  
+ATOM     58  O   SER X  30      65.840  29.240  61.220  1.00  0.00      SYST O  
+ATOM     59  N   ASN X  31      64.960  27.540  62.430  1.00  0.00      SYST N  
+ATOM     60  H   ASN X  31      65.140  26.860  63.150  1.00  0.00      SYST H  
+ATOM     61  CA  ASN X  31      63.840  27.230  61.550  1.00  0.00      SYST C  
+ATOM     62  HA  ASN X  31      64.050  27.640  60.560  1.00  0.00      SYST H  
+ATOM     63  CB  ASN X  31      63.700  25.700  61.360  1.00  0.00      SYST C  
+ATOM     64  HB2 ASN X  31      62.930  25.470  60.620  1.00  0.00      SYST H  
+ATOM     65  HB3 ASN X  31      64.610  25.200  61.040  1.00  0.00      SYST H  
+ATOM     66  CG  ASN X  31      63.250  25.000  62.640  1.00  0.00      SYST C  
+ATOM     67  OD1 ASN X  31      63.330  25.590  63.730  1.00  0.00      SYST O  
+ATOM     68  ND2 ASN X  31      62.760  23.800  62.490  1.00  0.00      SYST N  
+ATOM     69 HD21 ASN X  31      62.640  23.510  61.530  1.00  0.00      SYST H  
+ATOM     70 HD22 ASN X  31      62.450  23.180  63.220  1.00  0.00      SYST H  
+ATOM     71  C   ASN X  31      62.450  27.840  61.820  1.00  0.00      SYST C  
+ATOM     72  O   ASN X  31      61.500  27.380  61.170  1.00  0.00      SYST O  
+ATOM     73  N   ASN X  32      62.270  28.850  62.660  1.00  0.00      SYST N  
+ATOM     74  H   ASN X  32      63.130  29.260  63.010  1.00  0.00      SYST H  
+ATOM     75  CA  ASN X  32      61.030  29.280  63.310  1.00  0.00      SYST C  
+ATOM     76  HA  ASN X  32      60.330  28.450  63.430  1.00  0.00      SYST H  
+ATOM     77  CB  ASN X  32      61.430  29.650  64.800  1.00  0.00      SYST C  
+ATOM     78  HB2 ASN X  32      62.170  30.440  64.660  1.00  0.00      SYST H  
+ATOM     79  HB3 ASN X  32      60.530  30.040  65.280  1.00  0.00      SYST H  
+ATOM     80  CG  ASN X  32      62.010  28.610  65.730  1.00  0.00      SYST C  
+ATOM     81  OD1 ASN X  32      61.450  27.540  65.930  1.00  0.00      SYST O  
+ATOM     82  ND2 ASN X  32      63.050  28.920  66.380  1.00  0.00      SYST N  
+ATOM     83 HD21 ASN X  32      63.390  28.230  67.030  1.00  0.00      SYST H  
+ATOM     84 HD22 ASN X  32      63.550  29.780  66.210  1.00  0.00      SYST H  
+ATOM     85  C   ASN X  32      60.310  30.330  62.470  1.00  0.00      SYST C  
+ATOM     86  O   ASN X  32      59.770  31.320  62.960  1.00  0.00      SYST O  
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1    4    5   16
+CONECT    4    3
+CONECT    5    3    6    7    8
+CONECT    6    5
+CONECT    7    5
+CONECT    8    5    9   10   11
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12   13
+CONECT   12   11
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15   13
+CONECT   16    3   17   18
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   19   18
+CONECT   20   18   21   22   27
+CONECT   21   20
+CONECT   22   20   23   24   25
+CONECT   23   22
+CONECT   24   22
+CONECT   25   22   26
+CONECT   26   25
+CONECT   27   20   28   29
+CONECT   28   27
+CONECT   29   27   30   31
+CONECT   30   29
+CONECT   31   29   32   33   46
+CONECT   32   31
+CONECT   33   31   34   35   39
+CONECT   34   33
+CONECT   35   33   36   37   38
+CONECT   36   35
+CONECT   37   35
+CONECT   38   35
+CONECT   39   33   40   41   42
+CONECT   40   39
+CONECT   41   39
+CONECT   42   39   43   44   45
+CONECT   43   42
+CONECT   44   42
+CONECT   45   42
+CONECT   46   31   47   48
+CONECT   47   46
+CONECT   48   46   49   50
+CONECT   49   48
+CONECT   50   48   51   52   57
+CONECT   51   50
+CONECT   52   50   53   54   55
+CONECT   53   52
+CONECT   54   52
+CONECT   55   52   56
+CONECT   56   55
+CONECT   57   50   58   59
+CONECT   58   57
+CONECT   59   57   60   61
+CONECT   60   59
+CONECT   61   59   62   63   71
+CONECT   62   61
+CONECT   63   61   64   65   66
+CONECT   64   63
+CONECT   65   63
+CONECT   66   63   67   68
+CONECT   67   66
+CONECT   68   66   69   70
+CONECT   69   68
+CONECT   70   68
+CONECT   71   61   72   73
+CONECT   72   71
+CONECT   73   71   74   75
+CONECT   74   73
+CONECT   75   73   76   77   85
+CONECT   76   75
+CONECT   77   75   78   79   80
+CONECT   78   77
+CONECT   79   77
+CONECT   80   77   81   82
+CONECT   81   80
+CONECT   82   80   83   84
+CONECT   83   82
+CONECT   84   82
+CONECT   85   75   86
+CONECT   86   85
+END
