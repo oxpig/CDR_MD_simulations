@@ -1,4 +1,4 @@
-# Supporting repository for Uncovering the flexibility of CDR loops in antibodies and TCRs through large-scale molecular dynamics
+# Supporting repository for "Uncovering the flexibility of CDR loops in antibodies and TCRs through large-scale molecular dynamics" (2025).
 
 ## 📝 About
 Supporting repository for the manuscript "Uncovering the flexibility of CDR loops in antibodies and TCRs through large-scale molecular dynamics" ([Cagiada M., Spoendlin F.C., et al., bioRxiv 2025](https://www.biorxiv.com)).
