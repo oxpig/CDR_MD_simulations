@@ -1,0 +1,21 @@
+name: prep_env
+channels:
+  - conda-forge
+  - defaults
+  - salilab
+dependencies:
+  - pdbfixer=1.8.1=pyh6c4a22f_0
+  - pip=24.2=py310h06a4308_0
+  - python=3.10.16=he870216_1
+  - dssp=3.0.0
+  - boost-cpp=1.73
+  - pip:
+      - biopython==1.81
+      - joblib==1.4.2
+      - mdanalysis==2.6.1
+      - mdtraj==1.10.0
+      - numpy==1.24.0
+      - openmm==8.2.0
+      - pandas==2.1.1
+      - pdb-tools==2.5.0
+      - pyyaml==6.0

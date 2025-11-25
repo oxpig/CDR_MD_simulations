@@ -1,0 +1,30 @@
+REMARK   1 CREATED WITH MDTraj 1.10.0, 2024-12-10
+CRYST1   80.000   80.000   80.000  90.00  90.00  90.00 P 1           1 
+MODEL        0
+ATOM      1  rP    r A   1       2.748  -5.107   0.000  1.00  0.00           P  
+ATOM      2  rN    r A   1       2.748  -5.107   5.400  1.00  0.00           N  
+ATOM      3  rP    r A   2       6.894  -0.533   0.000  1.00  0.00           P  
+ATOM      4  rN    r A   2       6.894  -0.533   5.400  1.00  0.00           N  
+ATOM      5  rP    r A   3       5.680   5.417   0.000  1.00  0.00           P  
+ATOM      6  rN    r A   3       5.680   5.417   5.400  1.00  0.00           N  
+ATOM      7  rP    r A   4       0.607   8.651   0.000  1.00  0.00           P  
+ATOM      8  rN    r A   4       0.607   8.651   5.400  1.00  0.00           N  
+ATOM      9  rP    r A   5      -5.308   7.779   0.000  1.00  0.00           P  
+ATOM     10  rN    r A   5      -5.308   7.779   5.400  1.00  0.00           N  
+ATOM     11  rP    r A   6      -9.469   3.523   0.000  1.00  0.00           P  
+ATOM     12  rN    r A   6      -9.469   3.523   5.400  1.00  0.00           N  
+TER      13        r A   6
+ENDMDL
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11
+END

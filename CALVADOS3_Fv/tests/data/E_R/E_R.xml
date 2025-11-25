@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<System openmmVersion="8.2" type="System" version="1">
+	<PeriodicBoxVectors>
+		<A x="8" y="0" z="0"/>
+		<B x="0" y="8" z="0"/>
+		<C x="0" y="0" z="8"/>
+	</PeriodicBoxVectors>
+	<Particles>
+		<Particle mass="147.11"/>
+		<Particle mass="174.19"/>
+	</Particles>
+	<Constraints/>
+	<Forces>
+		<Force cutoff="4" energy="q*1.7708537147570556*(exp(-1.2738143970635982*r)/r-0.001531432128972686); q=q1*q2" forceGroup="1" method="2" name="CustomNonbondedForce" switchingDistance="-1" type="CustomNonbondedForce" useLongRangeCorrection="0" useSwitchingFunction="0" version="3">
+			<PerParticleParameters>
+				<Parameter name="q"/>
+			</PerParticleParameters>
+			<GlobalParameters/>
+			<ComputedValues/>
+			<EnergyParameterDerivatives/>
+			<Particles>
+				<Particle param1="-1"/>
+				<Particle param1="1"/>
+			</Particles>
+			<Exclusions/>
+			<Functions/>
+			<InteractionGroups/>
+		</Force>
+		<Force cutoff="2" energy="0.8368000000000001*select(step(r-2^(1/6)*s),4*l*((s/r)^12-(s/r)^6-shift),4*((s/r)^12-(s/r)^6-l*shift)+(1-l)); l=select(id1+id2,(id1*id2)*0.5*(l1+l2),0); shift=(s/2.0)^12-(s/2.0)^6; s=0.5*(s1+s2)" forceGroup="0" method="2" name="CustomNonbondedForce" switchingDistance="-1" type="CustomNonbondedForce" useLongRangeCorrection="0" useSwitchingFunction="0" version="3">
+			<PerParticleParameters>
+				<Parameter name="s"/>
+				<Parameter name="l"/>
+				<Parameter name="id"/>
+			</PerParticleParameters>
+			<GlobalParameters/>
+			<ComputedValues/>
+			<EnergyParameterDerivatives/>
+			<Particles>
+				<Particle param1=".592" param2=".000693546096" param3="1"/>
+				<Particle param1=".656" param2=".730762476752" param3="1"/>
+			</Particles>
+			<Exclusions/>
+			<Functions/>
+			<InteractionGroups/>
+		</Force>
+		<Force forceGroup="0" name="HarmonicBondForce" type="HarmonicBondForce" usesPeriodic="1" version="2">
+			<Bonds/>
+		</Force>
+		<Force forceGroup="0" name="HarmonicBondForce" type="HarmonicBondForce" usesPeriodic="1" version="2">
+			<Bonds/>
+		</Force>
+	</Forces>
+</System>

@@ -21,7 +21,36 @@ The contents of this repository allow you to reproduce the results and figures t
 
 ## ⚙️ CV3-Fv pipeline
 
-Coming soon...
+To run CV3-Fv simulations follow the steps below
+
+1. Install environments
+
+To install the required Conda environments, run:
+
+```bash
+scripts/setup_envs.sh
+```
+
+2. Run simulations
+
+Simulations can be executed using:
+
+```bash
+scripts/run_sim.sh <NAME> <INSTRUC> <CHAINH> <CHAINL> <OUTDIR>
+```
+
+Required Arguments
+	•	NAME – Unique name for the run
+	•	INSTRUC – Path to input structure file
+	•	CHAINH – Heavy chain ID
+	•	CHAINL – Light chain ID
+	•	OUTDIR – Output directory path
+
+3. Convert to all atom
+
+```bash
+python scripts/convert2all_atom.py --simulation_dir <DIR> --pdb_id <NAME> --h_chain <CHAINH> --l_chain <CHAINL>
+```
 
 ----
 
