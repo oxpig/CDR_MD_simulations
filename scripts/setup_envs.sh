@@ -31,6 +31,7 @@ echo "[INFO] Setting up cg2all environment"
 conda create --name cg2all pip cudatoolkit=12.8 dgl=1.0 -c dglteam/label/cu128 python=3.10 -y
 conda activate cg2all
 pip install git+http://github.com/huhlim/cg2all
+pip install pandas
 conda deactivate
 
 echo "Done"
