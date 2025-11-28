@@ -3,13 +3,15 @@ from calvados.cfg import Config, Job, Components
 import subprocess
 import argparse
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def create_parser():
     parser = argparse.ArgumentParser(description='Prepare script for Calvados2COM AB simulation')
     parser.add_argument('--temp', type=float, help='Temperature in K',default=293)
     parser.add_argument('--ionic', type=float, help='Ionic strength in molar',default=0.15)
     parser.add_argument('--pH', type=float, help='pH',default=7.0)
     parser.add_argument('--k-harmonic', type=float, help='Restraint force constant',default=700)
-    parser.add_argument('--fresidues-file', type=str, help='Residue definitions file',default='/projects/prism/people/bqm193/software/CALVADOS/residues_C3.csv')
+    parser.add_argument('--fresidues-file', type=str, help='Residue definitions file',default=f'{SCRIPT_DIR}/residues_C3.csv')
     parser.add_argument('--wfreq', type=int, help='DCD writing frequency',default=5000)
     parser.add_argument('--steps', type=int, help='Number of simulation steps (total: wfreq*steps)',default=1010)
     parser.add_argument('--platform', type=str, help='Platform (CPU or CUDA)',default='CPU')

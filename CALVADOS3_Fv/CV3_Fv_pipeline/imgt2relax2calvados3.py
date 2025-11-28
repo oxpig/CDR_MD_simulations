@@ -11,8 +11,8 @@ from itertools import tee
 
 from pdbtools import pdb_selchain,pdb_selres,pdb_tofasta,pdb_keepcoord,pdb_reres,pdb_merge,pdb_chain,pdb_reatom,pdb_delhetatm,pdb_tidy,pdb_delelem
 
-# RELAX_path = os.path.abspath('/projects/prism/people/bqm193/software/CALVADOS/openmm_relax.py')
-RELAX_path = os.path.abspath('/vols/opig/projects/cagiada-CDRsimulations/analysis_files/CDRsimulations/CALVADOS/openmm_relax.py')
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+RELAX_path = os.path.abspath(f'{SCRIPT_DIR}/openmm_relax.py')
 
 def create_parser():
     def parse_tuple(value):

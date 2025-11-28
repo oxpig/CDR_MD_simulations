@@ -1,5 +1,4 @@
-import argparse 
-import Bio.PDB as PDB
+import argparse
 import os
 
 from Bio.PDB import PDBParser, PDBIO, Select

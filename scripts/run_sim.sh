@@ -58,7 +58,7 @@ echo "[INFO] Creating constraints for contacts"
 python CALVADOS3_Fv/CV3_Fv_pipeline/pdb2ij_energy_relaxed.py --pdb-file ${OUTDIR}/${NAME}_Fv_${CHAINH}${CHAINL}.pdb --energy-HB-file ${OUTDIR}/${NAME}_Fv_${CHAINH}${CHAINL}_ij_energy.csv --out-dir ${OUTDIR} --map-file ${OUTDIR}/${NAME}_dict_Fv_${CHAINH}${CHAINL}.txt --chains ${CHAINH}${CHAINL}
 
 echo "[INFO] Preparing simulation"
-python CALVADOS3_Fv/prepare_ABrun.py --input-pdb ${OUTDIR}/${NAME}_Fv_${CHAINH}${CHAINL}.pdb --fdomains-file ${OUTDIR}/constraints_folded/${NAME}_Fv_${CHAINH}${CHAINL}_constraints.yaml --custom-restraints-file ${OUTDIR}/${NAME}_Fv_${CHAINH}${CHAINL}_ij_energy_contact.csv --out-dir $OUTDIR --fresidues-file /vols/opig/projects/cagiada-CDRsimulations/analysis_files/CDRsimulations/CALVADOS/residues_C3.csv #--steps 3010
+python CALVADOS3_Fv/prepare_ABrun.py --input-pdb ${OUTDIR}/${NAME}_Fv_${CHAINH}${CHAINL}.pdb --fdomains-file ${OUTDIR}/constraints_folded/${NAME}_Fv_${CHAINH}${CHAINL}_constraints.yaml --custom-restraints-file ${OUTDIR}/${NAME}_Fv_${CHAINH}${CHAINL}_ij_energy_contact.csv --out-dir $OUTDIR
 
 echo "[INFO] Running simulation"
 cd $OUTDIR

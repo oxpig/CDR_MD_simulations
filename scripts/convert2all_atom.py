@@ -1,11 +1,10 @@
-import pandas as pd
 import subprocess
 import argparse
 import os
 
 argparser = argparse.ArgumentParser()
 argparser.add_argument('--simulation_dir', type=str)
-argparser.add_argument('--pdb_id', type=int)
+argparser.add_argument('--pdb_id', type=str)
 argparser.add_argument('--h_chain', type=str)
 argparser.add_argument('--l_chain', type=str)
 
